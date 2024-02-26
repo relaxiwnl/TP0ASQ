@@ -1,12 +1,10 @@
-import org.junit.jupiter.api.BeforeEach;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class CalculatorTest {
-
-          static   Calculator calc = new Calculator();
-
+        static   Calculator calc = new Calculator();
         @Test void addShouldReturnResult(){
             int result = calc.add(4,8);
             assertEquals(12,result);
