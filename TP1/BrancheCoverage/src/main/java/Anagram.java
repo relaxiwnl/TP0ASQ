@@ -6,8 +6,7 @@ public class Anagram {
         s1 = s1.toLowerCase().replaceAll("\\s+", "");
         s2 = s2.toLowerCase().replaceAll("\\s+", "");
         if (s1.length() != s2.length()) {
-            return false;
-        }
+            return false;}
         int[] count = new int[26];
         for (int i = 0; i <= s1.length()-1; i++) {
             count[s1.charAt(i) - 'a']++;
