@@ -1,4 +1,4 @@
-package exercice4;
+package src.test.exercice4;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -6,9 +6,9 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class PrimeTest {
-    static Prime prime;
+    static exercice4.Prime prime;
     @BeforeEach void SetUP(){
-        prime = new Prime();
+        prime = new exercice4.Prime();
     }
     @Test void isPrimeShouldReturnfalseIfEntryIsTwoOrLess(){
         //Act

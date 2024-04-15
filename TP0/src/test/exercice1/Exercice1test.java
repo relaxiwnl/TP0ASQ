@@ -1,4 +1,4 @@
-package exercice1;
+package src.test.exercice1;
 
 import exercice1.Person;
 import org.junit.jupiter.api.Test;

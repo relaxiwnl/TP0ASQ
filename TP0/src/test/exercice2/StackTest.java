@@ -1,4 +1,4 @@
-package exercice2;
+package src.test.exercice2;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -7,11 +7,11 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class StackTest {
-    static Stack pile;
+    static exercice2.Stack pile;
     @BeforeEach
     void SetUP(){
         //Arrange
-        pile = new Stack();
+        pile = new exercice2.Stack();
     }
     //2 classes pour methode push , si on veut verifié on faire l'arbre de la methode (branche coverage)
     @Test void pushShouldAddElementToTheTopOfStack(){

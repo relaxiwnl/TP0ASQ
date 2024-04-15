@@ -1,4 +1,4 @@
-package exercice3;
+package src.test.exercice3;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class FibonacciTest {
-    static Fibonacci fibo;
+    static exercice3.Fibonacci fibo;
     @Test void fibonacciShouldReturnZeroIfEntryIsZero(){
         //Arrange
 

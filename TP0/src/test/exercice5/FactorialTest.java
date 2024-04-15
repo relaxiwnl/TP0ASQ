@@ -1,11 +1,11 @@
-package exercice5;
+package src.test.exercice5;
 
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class FactorialTest {
-    static Factorial factorial;
+    static exercice5.Factorial factorial;
     @Test void factorialShouldReturnResultForEntryGreaterThanZero(){
         //Act
         int result = factorial.factorial(3);
