@@ -1,3 +1,5 @@
+package exercice1;
+
 import exercice1.User;
 import exercice1.UserRepository;
 import exercice1.UserService;
